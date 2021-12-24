@@ -1,0 +1,27 @@
+::ng-deep {
+  .custom-slider .ngx-slider .ngx-slider-bar {
+    background: lightgrey;
+    height: 3px;
+  }
+
+  .custom-slider .ngx-slider .ngx-slider-selection {
+    background: #8cc8ff;
+  }
+
+ .custom-slider .ngx-slider .ngx-slider-pointer {
+    width: 8px;
+    height: 8px;
+    top: auto; /* to remove the default positioning */
+    bottom: 0;
+    background-color: #fff;
+    border: 2px solid #91d5ff;
+    border-radius: 50%;
+  }
+
+  .custom-slider .ngx-slider .ngx-slider-pointer:after {
+    display: none;
+  }
+
+  
+
+}
